@@ -24,6 +24,39 @@ body {
   justify-content: space-between;
 }
 
+.search-container {
+  padding: 10px;
+  background-color: #f3f3f3;
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-text {
+  border: none;
+  background-color: #f3f3f3;
+}
+
+input:focus {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-text::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.search-btn {
+  border: none;
+  background-color: #ebe9e9;
+}
+
 .weather-img {
   width: 15%;
   height: auto;
